@@ -4924,7 +4924,8 @@ header .offcanvas-backdrop {
   text-align: center;
   /* padding: calc(100px + 90 * (100vw - 320px) / 1600) 0 calc(40px + 20 * (100vw - 320px) / 1600); */
   position: relative;
-  background-image: url(../images/home/home-bg.png);
+  background: transparent;
+  height: 100%;
   background-size: cover;
   z-index: 1;
 }
@@ -4938,10 +4939,11 @@ header .offcanvas-backdrop {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 55%;
+  width: 100%;
+  height: 100vh;
   z-index: -1;
   top: 0;
-  opacity: 0.04;
+  opacity: 0.02;
   mix-blend-mode: lighten;
 }
 .home-section .bg-effect .effect1 {
@@ -4994,7 +4996,7 @@ header .offcanvas-backdrop {
 }
 .home-section .home-content h1 .title-effect {
   padding: 3px 20px;
-  background-color: #17273f;
+  background-color: #34479d36;
   display: inline-block;
   position: relative;
   margin: 0 15px;
@@ -5024,7 +5026,7 @@ header .offcanvas-backdrop {
   }
 }
 .home-section .home-content h1 .title-effect span {
-  background: url("../images/title-bg.jpg");
+  background: url("../images/title-bg1.jpg");
   background-position: bottom;
   -webkit-background-clip: text;
   color: transparent;
