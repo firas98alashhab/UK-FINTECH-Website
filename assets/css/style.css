@@ -4312,7 +4312,7 @@ header .offcanvas-backdrop {
   font-size: calc(16px + 2 * (100vw - 320px) / 1600);
 }
 .main-wrapper .main-section .my-account .user-detail {
-  background-image: url(../images/info-bg.jpg);
+  background-image: url(../images/info-bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -6328,7 +6328,7 @@ header .offcanvas-backdrop {
 }
 .info-section .info-box {
   text-align: center;
-  background-image: url("../images/info-bg.jpg");
+  background-image: url("../images/info-bg1.jpg");
   background-size: cover;
   border-radius: 8px;
   padding: 50px;
