@@ -61,6 +61,9 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .img-fluid {
+    width: 70px;
+  }
 }
 section,
 .section-t-space {
@@ -1715,7 +1718,7 @@ header.sticky {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #20333d;
+  background-color: #111834c0;
   padding: 15px calc(15px + 85 * (100vw - 320px) / 1600);
 }
 
@@ -2310,8 +2313,8 @@ header .navbar-toggler-icon {
 @media (max-width: 576px) {
   header .navbar-toggler-icon {
     position: absolute;
-    right: -2px;
-    top: 16px;
+    right: 8px;
+    top: 36px;
     margin-right: calc(15px + 85 * (100vw - 320px) / 1600);
   }
 }
@@ -5319,7 +5322,7 @@ header .offcanvas-backdrop {
 
 .service-section {
   padding-top: 178px;
-  background: linear-gradient(180.02deg, rgba(var(--title-color), 0.05) 0.02%, rgba(var(--title-color), 0) 90.86%);
+  background: linear-gradient(180.02deg, rgba(var(--theme-color), 0.05) 0.02%, rgba(var(--theme-color), 0) 90.86%);
   position: relative;
   overflow: hidden;
 }
