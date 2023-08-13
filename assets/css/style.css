@@ -6852,6 +6852,11 @@ header .offcanvas-backdrop {
   .invest-us h2{
     margin-left: 80px;
   }
+  .about-content p,
+  .about-content h4
+  {
+    padding-left: 16px;
+  }
 }
 
 @media (max-width: 391px) {
