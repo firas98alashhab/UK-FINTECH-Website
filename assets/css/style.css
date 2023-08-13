@@ -66,17 +66,8 @@
   }
   
   .breadcrumb-section h2{
-    margin-left: 15px;
+    margin-left: 95px;
     margin-top: 50px;
-  }
-  .breadcrumb-section {
-    background-image: url("../images/breadcrumb-bg.png");
-    background-position: bottom;
-    background-size: cover;
-    padding-top: 180px;
-    padding-bottom: 300px;
-    position: relative;
-    max-height: 120px;
   }
 }
 section,
@@ -291,6 +282,22 @@ li {
   padding-top: 180px;
   padding-bottom: 30px;
   position: relative;
+  margin-top: 100px;
+  height: 400px;
+}
+@media (max-width: 576px) {
+  .breadcrumb-section {
+    background-image: none;
+    margin-top: -100px;
+    margin-bottom: -120px;
+    margin-left: -10px;
+  }
+}
+@media (max-width: 376px) {
+  .breadcrumb-section h2{
+    margin: auto;
+    margin-left: 30px;
+  }
 }
 @media (max-width: 1400px) {
   .breadcrumb-section {
@@ -5650,6 +5657,26 @@ header .offcanvas-backdrop {
   .about-section .bg-effect {
     width: 100%;
   }
+  .last-box {
+    margin-bottom: 150px;
+  }
+  .service-content .img-fluid {
+    display: none;
+  }
+  .invest-with-us {
+    margin-left: 30px;
+    margin-top: -160px;
+  }
+}
+@media (max-width: 376px) {
+  .last-box {
+    margin-bottom: 90px;
+  }
+  .about-content p,
+  .about-content h4
+  {
+    padding-left: 13px;
+  }
 }
 .about-section.right-version .about-content {
   padding-left: 0;
@@ -6701,4 +6728,116 @@ header .offcanvas-backdrop {
 .virtual-mall-video {
   width: 100%;
   height: 780px;
+}
+
+@media (max-width: 1456px) {
+  .virtual-mall-video {
+    padding-top: 100px;
+  }
+  .info-section {
+    margin-bottom: -80px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .virtual-mall-video {
+    padding-top: 150px;
+  }
+  .info-section {
+    margin-bottom: -150px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .virtual-mall-video {
+    padding-top: 180px;
+  }
+  .info-section {
+    margin-bottom: -190px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .virtual-mall-video {
+    padding-top: 260px;
+  }
+  .info-section {
+    margin-bottom: -260px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .order-1 .about-content{
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .order-1 .about-content{
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .virtual-mall-video {
+    padding-top: 360px;
+  }
+  .info-section {
+    margin-bottom: -380px;
+  }
+}
+
+@media (max-width: 768px) {
+  .virtual-mall-video {
+    padding-top: 480px;
+  }
+  .info-section {
+    margin-bottom: -520px;
+  }
+}
+
+@media (max-width: 530px) {
+  .virtual-mall-video {
+    padding-top: 530px;
+  }
+  .info-section {
+    margin-bottom: -580px;
+  }
+  .invest-with-us {
+    margin-left: 0px;
+    margin-top: -160px;
+  }
+}
+
+@media (max-width: 450px) {
+  .virtual-mall-video {
+    padding-top: 560px;
+  }
+  .info-section {
+    margin-bottom: -620px;
+  }
+  .invest-with-us {
+    margin-left: -30px;
+    margin-top: -160px;
+  }
+}
+
+@media (max-width: 400px) {
+  .invest-with-us {
+    margin-left: -40px;
+    margin-top: -160px;
+  }
+}
+
+@media (max-width: 390px) {
+  .virtual-mall-video {
+    padding-top: 600px;
+  }
+  .info-section {
+    margin-bottom: -650px;
+  }
+  .invest-with-us {
+    margin-left: -50px;
+    margin-top: -160px;
+  }
 }
