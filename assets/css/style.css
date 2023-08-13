@@ -6847,7 +6847,10 @@ header .offcanvas-backdrop {
     margin-left: 48px;
   }
   .breadcrumb-content h2 {
-    margin-left: 90px;
+    margin-left: 45px;
+  }
+  .invest-us h2{
+    margin-left: 80px;
   }
 }
 
@@ -6856,6 +6859,9 @@ header .offcanvas-backdrop {
     margin-left: 38px;
   }
   .breadcrumb-content h2 {
+    margin-left: 40px;
+  }
+  .invest-us h2{
     margin-left: 100px;
   }
 }
@@ -6864,6 +6870,9 @@ header .offcanvas-backdrop {
   .breadcrumb-content h2 {
     margin-top: 50px;
   }
+  .invest-us h2{
+    margin-left: 80px;
+  }
 }
 
 @media (max-width: 361px) {
@@ -6871,7 +6880,10 @@ header .offcanvas-backdrop {
     margin-left: 28px;
   }
   .breadcrumb-content h2 {
-    margin-left: 85px;
+    margin-left: 25px;
+  }
+  .invest-us h2{
+    margin-left: 80px;
   }
 }
 
@@ -6879,5 +6891,7 @@ header .offcanvas-backdrop {
   .breadcrumb-section h2{
     margin-left: -8px;
   }
-
+  .invest-us h2{
+    margin-left: 50px;
+  }
 }
