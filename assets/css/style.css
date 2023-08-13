@@ -2579,7 +2579,7 @@ header .offcanvas-body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 20px 24px;
+  padding: 20px 4px;
   overflow-y: auto;
   height: 100%;
 }
@@ -6840,4 +6840,44 @@ header .offcanvas-backdrop {
     margin-left: -50px;
     margin-top: -160px;
   }
+}
+
+@media (max-width: 415px) {
+  .breadcrumb-section h2{
+    margin-left: 48px;
+  }
+  .breadcrumb-content h2 {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 391px) {
+  .breadcrumb-section h2{
+    margin-left: 38px;
+  }
+  .breadcrumb-content h2 {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 376px) {
+  .breadcrumb-content h2 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 361px) {
+  .breadcrumb-section h2{
+    margin-left: 28px;
+  }
+  .breadcrumb-content h2 {
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 281px) {
+  .breadcrumb-section h2{
+    margin-left: -8px;
+  }
+
 }
