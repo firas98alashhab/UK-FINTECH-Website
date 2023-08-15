@@ -19,7 +19,7 @@
 /* 1.9 Custom cursor CSS */
 /* 1.10 Tap to top CSS */
 /*=====================
-   1.0 Typography Scss start
+1.0 Typography Scss start
 ==========================*/
 :root {
   --black: 0, 0, 0;
@@ -27,6 +27,7 @@
   --title-color: 245, 245, 245;
   --content-color: 175, 176, 182;
   --theme-color: #34489d;
+  --theme-color-red: 153,2,53;
   --dark-title: 13, 18, 31;
   --Iconsax-Color: #6e7179;
 }
@@ -124,14 +125,11 @@ ul {
           margin-inline-start: 0;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
-}
 
-.btn-solid {
-  background-color: rgba(var(--theme-color), 1);
-  font-size: calc(16px + 4 * (100vw - 320px) / 1600);
+.btn-invest {
+  color: rgba(var(--black), 1);
+  background-color: rgba(var(--theme-color-red), 1);
+  font-size: calc(18px + 4 * (100vw - 320px) / 1600);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,27 +137,29 @@ li {
       -ms-flex-align: center;
           align-items: center;
   gap: calc(8px + 6 * (100vw - 320px) / 1600);
-  color: rgba(var(--dark-title), 1);
-  padding: calc(8px + 3 * (100vw - 320px) / 1600) calc(20px + 6 * (100vw - 320px) / 1600);
+  padding: calc(25px + 3 * (100vw - 320px) / 1600) calc(40px + 6 * (100vw - 320px) / 1600);
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  border: 1px solid rgba(var(--theme-color), 1);
+  border: 1px solid rgba(var(--theme-color-red), 1);
   border-radius: 8px;
-  font-weight: 500;
+  font-weight: 600;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  margin: auto;
+  margin-top: 50px;
 }
-.btn-solid .iconsax svg [fill] {
+.btn-invest .iconsax svg [fill] {
   fill: rgba(var(--dark-title), 1);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.btn-solid:hover {
+.btn-invest:hover {
   background-color: transparent;
   color: rgba(var(--white), 1);
+  border: 1px solid rgba(var(--white), 1);
 }
-.btn-solid:hover .iconsax svg [fill] {
+.btn-invest:hover .iconsax svg [fill] {
   fill: rgba(var(--white), 1);
 }
 
@@ -598,7 +598,7 @@ nav.navbar {
   font-size: calc(18px + 2 * (100vw - 320px) / 1600);
   margin-bottom: 0;
 }
-.home-section .home-sec .home-content .btn-solid {
+.home-section .home-sec .home-content .btn-invest {
   margin-top: calc(35px + 20 * (100vw - 320px) / 1600);
 }
 .home-section .home-sec .home-img {
@@ -1025,7 +1025,7 @@ footer .footer-content h2 {
   color: rgba(var(--white), 1);
   margin: 14px auto 18px;
 }
-footer .footer-content .btn-solid {
+footer .footer-content .btn-invest {
   margin: 0 auto;
 }
 
