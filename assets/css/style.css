@@ -6741,6 +6741,13 @@ header .offcanvas-backdrop {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  .virtual-mall-mobile-screen {
+    display: none;
+    overflow: hidden;
+  }
+}
+
 @media (max-width: 1456px) {
   .virtual-mall-video {
     margin-top: 100px;
@@ -6838,19 +6845,22 @@ header .offcanvas-backdrop {
 
 @media (max-width: 768px) {
   .virtual-mall-video {
-    margin-top: 480px;
+    display: none;
+    overflow: hidden;
   }
   .info-section {
     margin-bottom: -520px;
   }
-  .virtual-mall-video {
-    height: 260px;
+  .virtual-mall-video-mobile-screen {
+    display: block;
+    margin-top: 400px;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 575px) {
-  .virtual-mall-video {
-    height: 240px;
+  .virtual-mall-video-mobile-screen {
+    margin-top: 400px;
   }
 }
 
@@ -6861,8 +6871,8 @@ header .offcanvas-backdrop {
 }
 
 @media (max-width: 530px) {
-  .virtual-mall-video {
-    margin-top: 530px;
+  .virtual-mall-video-mobile-screen {
+    margin-top: 450px;
   }
   .info-section {
     margin-bottom: -580px;
@@ -6870,9 +6880,6 @@ header .offcanvas-backdrop {
   .invest-with-us {
     margin-left: 0px;
     margin-top: -160px;
-  }
-  .virtual-mall-video {
-    height: 220px;
   }
 }
 
@@ -6890,8 +6897,8 @@ header .offcanvas-backdrop {
 
 
 @media (max-width: 450px) {
-  .virtual-mall-video {
-    margin-top: 560px;
+  .virtual-mall-video-mobile-screen {
+    margin-top: 500px;
   }
   .info-section {
     margin-bottom: -620px;
@@ -6899,9 +6906,6 @@ header .offcanvas-backdrop {
   .invest-with-us {
     margin-left: -30px;
     margin-top: -160px;
-  }
-  .virtual-mall-video {
-    height: 180px;
   }
 }
 
@@ -6922,8 +6926,8 @@ header .offcanvas-backdrop {
 }
 
 @media (max-width: 390px) {
-  .virtual-mall-video {
-    margin-top: 600px;
+  .virtual-mall-video-mobile-screen {
+    margin-top: 520px;
   }
   .info-section {
     margin-bottom: -650px;
@@ -6932,9 +6936,7 @@ header .offcanvas-backdrop {
     margin-left: -50px;
     margin-top: -160px;
   }
-  .virtual-mall-video {
-    height: 150px;
-  }
+
 }
 
 @media (max-width: 415px) {
