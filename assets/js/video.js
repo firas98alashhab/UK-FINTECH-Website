@@ -1,12 +1,12 @@
-const video = document.querySelector(".theVideo"); // Select the video element
+const video = document.querySelector(".theVideo");
 
-video.addEventListener("mouseenter", hoverVideo); // Listen for mouseenter event
-video.addEventListener("mouseleave", hideVideo);  // Listen for mouseleave event
+video.addEventListener("mouseenter", hoverVideo);
+video.addEventListener("mouseleave", hideVideo);
 
 function hoverVideo(e) {
-    video.play(); // Play the video
+    video.play();
 }
 
 function hideVideo(e) {
-    video.pause(); // Pause the video
+    video.pause();
 }
