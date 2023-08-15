@@ -633,12 +633,11 @@
 
     <section class="virtual-mall" id="virtual-mall" style="padding-top: 80px;">
         <div class="virtual-mall-video">
-            <video width="86%" controls loop muted autoplay="autoplay">
-                <source src="assets/video/low sized.m4v" type="video/mp4">
+            <video class="theVideo" loop preload="none">
+                <source src="assets/video/low-sized.m4v" type="video/mp4">
             </video>
         </div>
     </section>
-
 
 
     <section class="about-section section-b-space virtual-mall-bg">
@@ -931,6 +930,9 @@
         });
         window.addEventListener('load', AOS.refresh);
     </script>
+
+    
+    <script src="../assets/js/video.js"></script>
 
 </body>
 

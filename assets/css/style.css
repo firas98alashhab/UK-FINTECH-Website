@@ -6726,43 +6726,72 @@ header .offcanvas-backdrop {
 /*# sourceMappingURL=style.css.map */
 
 .virtual-mall-video {
+  background-image: url(../video/screen.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 695px;
+  margin-bottom: 120px;
+  box-shadow: 0px 30px 20px #0000003b;
+
+}
+
+.virtual-mall-video .theVideo {
   width: 100%;
-  height: 780px;
 }
 
 @media (max-width: 1456px) {
   .virtual-mall-video {
-    padding-top: 100px;
+    margin-top: 100px;
   }
   .info-section {
     margin-bottom: -80px;
+  }
+  .virtual-mall-video {
+    height: 640px;
   }
 }
 
 @media (max-width: 1400px) {
   .virtual-mall-video {
-    padding-top: 150px;
+    margin-top: 150px;
   }
   .info-section {
     margin-bottom: -150px;
+  }
+  .virtual-mall-video {
+    height: 565px;
   }
 }
 
 @media (max-width: 1250px) {
   .virtual-mall-video {
-    padding-top: 180px;
+    margin-top: 180px;
   }
   .info-section {
     margin-bottom: -190px;
+  }
+  .virtual-mall-video {
+    height: 545px;
+  }
+}
+
+@media (max-width: 1225px) {
+  .virtual-mall-video {
+    height: 525px;
   }
 }
 
 @media (max-width: 1200px) {
   .virtual-mall-video {
-    padding-top: 260px;
+    margin-top: 260px;
   }
   .info-section {
     margin-bottom: -260px;
+  }
+  .virtual-mall-video {
+    height: 475px;
   }
 }
 
@@ -6772,33 +6801,68 @@ header .offcanvas-backdrop {
   }
 }
 
+
+@media (max-width: 1050px) {
+  .virtual-mall-video {
+    height: 455px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .virtual-mall-video {
+    margin-top: 360px;
+  }
+  .info-section {
+    margin-bottom: -380px;
+  }
+  .virtual-mall-video {
+    height: 435px;
+  }
+}
+
 @media (max-width: 992px) {
   .order-1 .about-content{
     margin-left: 50px;
   }
+  .virtual-mall-video {
+    height: 350px;
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 790px) {
   .virtual-mall-video {
-    padding-top: 360px;
-  }
-  .info-section {
-    margin-bottom: -380px;
+    height: 340px;
   }
 }
 
 @media (max-width: 768px) {
   .virtual-mall-video {
-    padding-top: 480px;
+    margin-top: 480px;
   }
   .info-section {
     margin-bottom: -520px;
+  }
+  .virtual-mall-video {
+    height: 260px;
+  }
+}
+
+@media (max-width: 575px) {
+  .virtual-mall-video {
+    height: 240px;
+  }
+}
+
+@media (max-width: 541px) {
+  .virtual-mall-video {
+    height: 230px;
   }
 }
 
 @media (max-width: 530px) {
   .virtual-mall-video {
-    padding-top: 530px;
+    margin-top: 530px;
   }
   .info-section {
     margin-bottom: -580px;
@@ -6807,11 +6871,27 @@ header .offcanvas-backdrop {
     margin-left: 0px;
     margin-top: -160px;
   }
+  .virtual-mall-video {
+    height: 220px;
+  }
 }
+
+@media (max-width: 500px) {
+  .virtual-mall-video {
+    height: 205px;
+  }
+}
+
+@media (max-width: 465px) {
+  .virtual-mall-video {
+    height: 190px;
+  }
+}
+
 
 @media (max-width: 450px) {
   .virtual-mall-video {
-    padding-top: 560px;
+    margin-top: 560px;
   }
   .info-section {
     margin-bottom: -620px;
@@ -6820,6 +6900,15 @@ header .offcanvas-backdrop {
     margin-left: -30px;
     margin-top: -160px;
   }
+  .virtual-mall-video {
+    height: 180px;
+  }
+}
+
+@media (max-width: 425px) {
+  .virtual-mall-video {
+    height: 170px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -6827,11 +6916,14 @@ header .offcanvas-backdrop {
     margin-left: -40px;
     margin-top: -160px;
   }
+  .virtual-mall-video {
+    height: 160px;
+  }
 }
 
 @media (max-width: 390px) {
   .virtual-mall-video {
-    padding-top: 600px;
+    margin-top: 600px;
   }
   .info-section {
     margin-bottom: -650px;
@@ -6839,6 +6931,9 @@ header .offcanvas-backdrop {
   .invest-with-us {
     margin-left: -50px;
     margin-top: -160px;
+  }
+  .virtual-mall-video {
+    height: 150px;
   }
 }
 
@@ -6878,6 +6973,9 @@ header .offcanvas-backdrop {
   .invest-us h2{
     margin-left: 80px;
   }
+  .virtual-mall-video {
+    height: 145px;
+  }
 }
 
 @media (max-width: 361px) {
@@ -6890,6 +6988,21 @@ header .offcanvas-backdrop {
   .invest-us h2{
     margin-left: 80px;
   }
+  .virtual-mall-video {
+    height: 140px;
+  }
+}
+
+@media (max-width: 340px) {
+  .virtual-mall-video {
+    height: 130px;
+  }
+}
+
+@media (max-width: 310px) {
+  .virtual-mall-video {
+    height: 115px;
+  }
 }
 
 @media (max-width: 281px) {
@@ -6898,5 +7011,8 @@ header .offcanvas-backdrop {
   }
   .invest-us h2{
     margin-left: 50px;
+  }
+  .virtual-mall-video {
+    height: 105px;
   }
 }
