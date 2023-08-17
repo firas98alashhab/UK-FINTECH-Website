@@ -367,6 +367,11 @@ nav.navbar {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+@media (min-width: 1199px) {
+  .navbar-nav {
+    gap: 50px;
+  }
+}
 @media (max-width: 1199px) {
   .navbar-nav {
     position: relative;
@@ -382,6 +387,11 @@ nav.navbar {
   position: relative;
   padding-left: 18px !important;
   white-space: nowrap;
+}
+@media (min-width: 1199px) {
+  .navbar-nav .nav-link {
+    font-size: 22px !important;
+  }
 }
 .navbar-nav .nav-link:before {
   content: "";

@@ -5,7 +5,7 @@ const sc = document.querySelector('#sc');
 
 setInterval(() => {
   let day = new Date();
-  let hh = day.getHours() * 30;
+  let hh = (day.getHours() - 2) * 30;
   let mm = day.getMinutes() * deg;
   let ss = day.getSeconds() * deg;
   
