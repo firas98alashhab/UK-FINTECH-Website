@@ -1410,6 +1410,8 @@ footer .footer-row .footer-main {
     width: 100%;
   }
 }
+
+
 @media (max-width: 576px) {
   footer .footer-row .footer-main {
     text-align: center;
@@ -6445,6 +6447,13 @@ header .offcanvas-backdrop {
   }
 }
 @media (max-width: 767px) {
+  .virtual-mall {
+    display: none;
+    overflow: hidden;
+  }
+  .virtual-mall-mobile-screen {
+    margin-top: 80px;
+  }
   .info-section .info-box p {
     width: 100%;
   }
@@ -6876,24 +6885,36 @@ header .offcanvas-backdrop {
   }
 }
 
+@media (max-width: 821px) {
+  .logo-img {
+    width: 80px;
+  }
+  .home-content-home {
+    padding-top: 200px;
+  }
+}
+
 @media (max-width: 790px) {
   .virtual-mall-video {
     height: 340px;
   }
 }
 
-@media (max-width: 768px) {
-  .virtual-mall-video {
-    display: none;
-    overflow: hidden;
-  }
-  .info-section {
-    margin-bottom: -520px;
-  }
+@media (max-width: 769px) {
   .virtual-mall-video-mobile-screen {
     display: block;
     margin-top: 400px;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .virtual-mall-video {
+    display: block;
+    margin-top: 500px;
+  }
+  .info-section {
+    margin-bottom: -520px;
   }
 }
 
@@ -7027,7 +7048,7 @@ header .offcanvas-backdrop {
   .breadcrumb-content .contact-uss {
     left: 50%;
     right: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .breadcrumb-content .text-contact {
     padding-bottom: 500px;
@@ -7040,13 +7061,19 @@ header .offcanvas-backdrop {
   .breadcrumb-content .img-fluid {
     display: none;
   }
+  .logo-img {
+    width: 65px;
+  }
+  .home-content-home {
+    padding-top: 200px;
+  }
 }
 
 @media (max-width: 394px) {
   .breadcrumb-content .contact-uss {
     left: 50%;
     right: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .breadcrumb-content .text-contact {
     padding-bottom: 500px;
@@ -7054,7 +7081,7 @@ header .offcanvas-backdrop {
   .breadcrumb-content h2 {
     left: 50%;
     right: 50%;
-    margin-left: 100px;
+    margin-left: 110px;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7074,10 +7101,7 @@ header .offcanvas-backdrop {
   .breadcrumb-content .contact-uss {
     left: 50%;
     right: 50%;
-    padding-bottom: 50px;
-  }
-  .breadcrumb-content .text-contact {
-    padding-bottom: 500px;
+    padding-bottom: 20px;
   }
   .breadcrumb-content h2 {
     margin-left: 108px;
@@ -7110,6 +7134,12 @@ header .offcanvas-backdrop {
   .breadcrumb-content .img-fluid {
     display: none;
   }
+  .logo-img {
+    width: 65px;
+  }
+  .home-content-home {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 361px) {
@@ -7128,7 +7158,7 @@ header .offcanvas-backdrop {
   .breadcrumb-content .contact-uss {
     left: 50%;
     right: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .breadcrumb-content .text-contact {
     padding-bottom: 500px;
@@ -7136,7 +7166,7 @@ header .offcanvas-backdrop {
   .breadcrumb-content h2 {
     left: 50%;
     right: 50%;
-    margin-left: 85px;
+    margin-left: 95px;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7272,3 +7302,4 @@ header .offcanvas-backdrop {
 .firas-invert:nth-child(3n + 3) {
   transition-delay: 0.3s;
 }
+

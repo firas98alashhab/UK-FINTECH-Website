@@ -623,9 +623,97 @@ nav.navbar {
   z-index: 1;
 }
 .home-section .home-img .robot-img {
+  position: relative;
   width: 92%;
-  border-bottom: 3px solid rgb(var(--theme-color));
+  z-index: -1;
 }
+/* clock css */
+
+.clock {
+  position: absolute;
+  top: 46.5%;
+  left: 40.95%;
+  border-radius: 50%;
+  width: 73px;
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/assets/images/clock.png);
+  background-size: cover;
+}
+
+.clock::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #0e61c2;
+  z-index: 10000;
+  border-radius: 50%;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+  position: absolute;
+}
+
+.clock .hour, .hr {
+  width: 150px;
+  height: 150px;
+}
+
+.clock .min, .mn {
+  width: 170px;
+  height: 170px;
+}
+
+.clock .sec, .sc {
+  width: 200px;
+  height: 200px;
+}
+
+.hr, .mn, .sc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  position: absolute;
+  border-radius: 50%;
+  
+}
+
+.hr::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: #990235;
+  z-index: 10;
+  border-radius: 6px 6px 0 0;
+}
+
+.mn::before {
+  content: '';
+  position: absolute;
+  width: 1.85px;
+  height: 20px;
+  background: #000;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+
+.sc::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #000;
+  z-index: 12;
+  border-radius: 6px 6px 0 0;
+}
+
 @media (max-width: 1700px) {
   .home-section .home-img .robot-img {
     width: 83%;
@@ -655,7 +743,7 @@ nav.navbar {
   border-radius: 100%;
   position: absolute;
   z-index: -1;
-  background-color: #0b0f1a;
+  background-color: transparent;
 }
 @media (max-width: 1700px) {
   .home-section .home-img .round-effect {

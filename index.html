@@ -52,6 +52,9 @@
                 <i class="iconsax" data-icon="text-align-justify"></i>
             </span>
         </button>
+        <a href="index.html">
+            <img src="assets/images/fintech-logo.png" width="90px" class="img-fluid logo-img" alt="logo">
+        </a>
         <nav class="header-nav-middle">
             <div class="main-nav navbar navbar-expand-xl navbar-light navbar-sticky">
                 <div class="offcanvas offcanvas-collapse order-xl-2" id="primaryMenu">
@@ -106,11 +109,8 @@
     <section id="home" class="section-b-space home-section">
         <div class="container-fluid">
             <div class="home-sec">
-                <div class="home-content">
+                <div class="home-content home-content-home">
                     <div>
-                        <a href="index.html" class="hidden">
-                            <img src="assets/images/fintech-logo.png" width="220px" class="img-fluid" alt="logo" style="margin-bottom: 50px;">
-                        </a>
                         <h1 class="hidden">Fintech Empowers Boundaries</h1>
                         <p class="hidden">“We design what the business need, end to end services”
                         </p>
@@ -119,9 +119,19 @@
                     </div>
                 </div>
                 <div class="home-img d-lg-flex d-none">
-                    <img src="assets/images/landing/robot1.png" class="img-fluid robot-img hidden" alt="robot" style="margin-top: 40px;">
-                    <div class="round-effect shareef">
-                        <img src="assets/images/landing/round2.gif" class="img-fluid" alt="robot">
+                    <div>
+                        <img src="assets/images/landing/logo-fintech2.png" class="img-fluid robot-img hidden" alt="robot" style="margin-top: 40px;">
+                        <div class="clock hidden">
+                            <div class="hour">
+                                <div class="hr" id="hr"></div>
+                            </div>
+                            <div class="min">
+                                <div class="mn" id="mn"></div>
+                            </div>
+                            <div class="sec">
+                                <div class="sc" id="sc"></div>
+                            </div>
+                        </div>
                     </div>
                     <ul class="home-effect">
                         <li class="firas"><a href="#services" style="color: white;">
@@ -160,7 +170,6 @@
                 <div class="home-content" style="margin-top: 150px;">
                     <div class="bg-effect">
                         <img src="assets/images/home/home-bg.gif" class="img-fluid bg-gif" alt="">
-                        <img src="assets/svg/home/1.png" class="img-fluid effect1 rotate-effect" alt="">
                     </div>
                     <div>
                         <h1 class="hidden">About <div class="title-effect">
@@ -482,9 +491,6 @@
             <div class="row">
                 <div class="col-12">
                     <div class="home-content">
-                        <div class="bg-effect">
-                            <img src="assets/svg/home/1.png" class="img-fluid effect1 rotate-effect" alt="">
-                        </div>
                         <div>
                             <h1 class="hidden">Digital   <div class="title-effect">
                                     <img src="assets/images/title-effect2.png" alt=""><span>Marketing</span>
@@ -641,7 +647,7 @@
         </div>
     </section>
 
-    <section class="virtual-mall-mobile-screen" id="virtual-mall" style="padding-top: 80px;">
+    <section class="virtual-mall-mobile-screen" style="padding-top: 80px;">
         <div class="virtual-mall-video-mobile-screen">
             <video width="86%" controls loop muted autoplay="autoplay">
                 <source src="assets/video/low sized.m4v" type="video/mp4">
@@ -680,9 +686,6 @@
             <div class="row">
                 <div class="col-12">
                     <div class="home-content">
-                        <div class="bg-effect">
-                            <img src="assets/svg/home/1.png" class="img-fluid effect1 rotate-effect" alt="">
-                        </div>
                         <div style="margin-bottom: 150px;">
                             <h1 class="hidden">Key    <div class="title-effect">
                                     <img src="assets/images/title-effect2.png" alt=""><span>Features</span>
@@ -797,7 +800,7 @@
                             <h2 class="contact-uss firas"><img src="assets/images/breadcrumb-title1.png" class="img-fluid"
                                     alt="title-effect">Contact us
                             </h2>
-                            <p class="text-contact firas">Email us with any questions, we would be happy to answer
+                            <p class="firas">Email us with any questions, we would be happy to answer
                                 your question. </p>
                         </div>
                     </div>
@@ -829,24 +832,21 @@
                         <img src="assets/svg/contact/contact1.svg" class="img-fluid" alt="message">
                     </div>
                     <h3>Contact no.</h3>
-                    <h4>(406) 555-0120</h4>
-                    <h4>(684) 555-0102</h4>
+                    <h4>+44 (0) 207 689 7888</h4>
                 </li>
                 <li class="shareef">
                     <div class="contact-icon">
                         <img src="assets/svg/contact/route1.svg" class="img-fluid" alt="message">
                     </div>
                     <h3>Address 1</h3>
-                    <h4>UK.</h4>
-                    <h4>London</h4>
+                    <h4>128 City Road, London EC1V 2NX</h4>
                 </li>
                 <li class="shareef">
                     <div class="contact-icon">
                         <img src="assets/svg/contact/address1.svg" class="img-fluid" alt="message">
                     </div>
-                    <h3>Address 2</h3>
-                    <h4>2972 Westheimer Rd. Santa </h4>
-                    <h4>Ana, Illinois 85486 </h4>
+                    <h3>Web</h3>
+                    <a href="https://www.yourcompanyformations.co.uk/"><h4>yourcompanyformations.co.uk</h4></a>
                 </li>
             </ul>
             <div class="contact-details">
@@ -949,7 +949,10 @@
     <!-- scroll animation script -->
 
     <script src="assets/js/animation-scroll.js"></script>
-    <script src="assets/js/animation-scroll-left-to-right.js"></script>
+
+    <!-- clock logic script -->
+
+    <script src="assets/js/clock.js"></script>
 </body>
 
 </html>
