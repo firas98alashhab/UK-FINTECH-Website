@@ -683,7 +683,7 @@ nav.navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(assets/images/clock.png);
+  background: url(/assets/images/clock.png);
   background-size: cover;
 }
 
