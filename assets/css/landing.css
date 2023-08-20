@@ -566,6 +566,40 @@ nav.navbar {
   .home-section .home-sec .home-content {
     width: 76%;
   }
+  .clock::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #0e61c2;
+    z-index: 10000;
+    border-radius: 50%;
+    left: 24%;
+    top: 55%;
+  }
+  .hr {
+    left: -8.6%;
+    top: 4.5%;
+  }
+  .mn {
+    left: -8.6%;
+    top: 3.4%;
+  }
+  .sc {
+    left: -8.1%;
+    top: 3.5%;
+  }
+  .hr::before {
+    max-height: 12px;
+  }
+  
+  .mn::before {
+    max-height: 14px;
+  }
+  
+  .sc::before {
+    max-height: 18px;
+  }
 }
 @media (max-width: 991px) {
   .home-section .home-sec .home-content {
@@ -691,7 +725,6 @@ nav.navbar {
   padding-bottom: 20px;
   position: absolute;
   border-radius: 50%;
-  
 }
 
 .hr::before {

@@ -6885,9 +6885,28 @@ header .offcanvas-backdrop {
   }
 }
 
+@media (max-width: 992px) {
+  .logo-img {
+    width: 100px;
+  }
+  .home-content-home {
+    padding-top: 200px;
+    margin-left: 120px;
+  }
+}
+@media (max-width: 991px) {
+  .logo-img {
+    width: 100px;
+  }
+  .home-content-home {
+    padding-top: 200px;
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 821px) {
   .logo-img {
-    width: 80px;
+    width: 100px;
   }
   .home-content-home {
     padding-top: 200px;
