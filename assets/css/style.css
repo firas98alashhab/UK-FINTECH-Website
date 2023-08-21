@@ -3721,6 +3721,10 @@ header .offcanvas-backdrop {
     right: -190px;
   }
 }
+.home-content .logo-img-2 {
+  display: none;
+  overflow: hidden;
+}
 .menu-panel .logo-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5672,6 +5676,18 @@ header .offcanvas-backdrop {
     margin-left: 30px;
     margin-top: -160px;
   }
+  .breadcrumb-content .img-fluid {
+    display: none;
+  }
+  .breadcrumb-content h2 {
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 376px) {
   .last-box {
@@ -6709,6 +6725,13 @@ header .offcanvas-backdrop {
     right: 120px;
   }
 }
+
+@media (max-width: 1293px) {
+  .container-fluid {
+    padding-top: 100px;
+  }
+}
+
 .login-animation .img-face img {
   -webkit-animation: flip 3s linear infinite alternate;
           animation: flip 3s linear infinite alternate;
@@ -6854,6 +6877,9 @@ header .offcanvas-backdrop {
   .order-1 .about-content{
     margin-left: 40px;
   }
+  .container-fluid {
+    padding-top: 200px;
+  }
 }
 
 
@@ -6883,6 +6909,16 @@ header .offcanvas-backdrop {
   .virtual-mall-video {
     height: 350px;
   }
+  .logo-img {
+    display: none;
+    overflow: hidden;
+  }
+  .navbar-menu-button {
+    margin-top: 30px;
+  }
+  .container-fluid {
+    padding-top: 150px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -6901,6 +6937,16 @@ header .offcanvas-backdrop {
   .home-content-home {
     padding-top: 200px;
     margin-left: 0px;
+  }
+  .home-content .logo-img-2 {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -140px;
+    width: 200px;
+  }
+  .container-fluid {
+    padding-top: 0px;
   }
 }
 
@@ -6955,13 +7001,17 @@ header .offcanvas-backdrop {
   .breadcrumb-content .text-contact {
     padding-bottom: 500px;
   }
-  .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 160px;
-  }
   .breadcrumb-content .img-fluid {
     display: none;
+  }
+  .breadcrumb-content h2 {
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -7010,10 +7060,6 @@ header .offcanvas-backdrop {
   .breadcrumb-content .text-contact {
     padding-bottom: 500px;
   }
-  .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-  }
   .breadcrumb-content .img-fluid {
     display: none;
   }
@@ -7053,9 +7099,6 @@ header .offcanvas-backdrop {
   .breadcrumb-section h2{
     margin-left: 48px;
   }
-  .breadcrumb-content h2 {
-    margin-left: 45px;
-  }
   .invest-us h2{
     margin-left: 80px;
   }
@@ -7073,9 +7116,13 @@ header .offcanvas-backdrop {
     padding-bottom: 500px;
   }
   .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 120px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7098,9 +7145,13 @@ header .offcanvas-backdrop {
     padding-bottom: 500px;
   }
   .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 110px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7112,7 +7163,13 @@ header .offcanvas-backdrop {
     margin-left: 38px;
   }
   .breadcrumb-content h2 {
-    margin-left: 40px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .invest-us h2{
     margin-left: 100px;
@@ -7121,9 +7178,6 @@ header .offcanvas-backdrop {
     left: 50%;
     right: 50%;
     padding-bottom: 20px;
-  }
-  .breadcrumb-content h2 {
-    margin-left: 108px;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7146,9 +7200,13 @@ header .offcanvas-backdrop {
     padding-bottom: 0px;
   }
   .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 100px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7159,14 +7217,14 @@ header .offcanvas-backdrop {
   .home-content-home {
     padding-top: 100px;
   }
+  .logo-img-2 {
+    margin-top: 0px !important;
+  }
 }
 
 @media (max-width: 361px) {
   .breadcrumb-section h2{
     margin-left: 28px;
-  }
-  .breadcrumb-content h2 {
-    margin-left: 25px;
   }
   .invest-us h2{
     margin-left: 80px;
@@ -7183,9 +7241,13 @@ header .offcanvas-backdrop {
     padding-bottom: 500px;
   }
   .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 95px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .breadcrumb-content .img-fluid {
     display: none;
@@ -7223,9 +7285,13 @@ header .offcanvas-backdrop {
     padding-bottom: 500px;
   }
   .breadcrumb-content h2 {
-    left: 50%;
-    right: 50%;
-    margin-left: 50px;
+    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .breadcrumb-content .img-fluid {
     display: none;
